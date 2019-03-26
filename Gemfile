@@ -40,6 +40,8 @@ group :development, :test do
   gem 'byebug', platform: :mri
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.3.13'
+  # For assert_template in integration tests
+  gem 'rails-controller-testing'
 end
 
 group :development do
