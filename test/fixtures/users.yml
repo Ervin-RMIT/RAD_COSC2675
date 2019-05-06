@@ -1,1 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+pengo:
+  name: Pengo Tango
+  email: pengo@tango.com
+  password_digest: <%= User.digest('password') %>
