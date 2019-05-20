@@ -46,6 +46,8 @@ group :development, :test do
   gem 'sqlite3', '~> 1.3.13'
   # For assert_template in integration tests
   gem 'rails-controller-testing'
+  # For using rspec as testing suite
+  gem 'rspec-rails', '~> 3.8'
 end
 
 group :development do
